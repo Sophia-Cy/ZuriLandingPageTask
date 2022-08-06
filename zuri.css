@@ -1,0 +1,83 @@
+/**{
+    padding: 0;
+    margin:0px;
+    box-sizing: border-box;
+}*/
+main{
+    place-items: center;
+}
+body{
+    background-color: rgb(238, 209, 209);
+    margin: 30px;
+    place-items: center;
+    font-size: 1rem;
+    color: #212529;
+    padding: 50px;
+    
+
+}
+
+.heading{
+    padding: 0px 30px 5px 360px;
+    align-items: center;
+    margin-left: 30px;
+}
+.paragraph{
+    padding: 5px 30px 15px 260px;
+    margin-left: 30px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #514949; 
+}
+
+.buttons{
+    padding-left: 340px;
+    margin-left: 30px;
+}
+.newherebtn{
+    background-color: #E7332B;
+    color: #fff;
+    margin-right: 24px;
+    padding: 15px;
+    border: none;
+}
+.applybtn{
+    background-color: #fff;
+    color: #E7332B;
+    border-color: #E7332B;
+    padding:15px;
+}
+mybtn{
+    padding: 11px 28px;
+    border: 1px solid #E7332B;
+    font-size: inherit;
+}
+.space .red{
+    padding:  200px 30px 0px 142px;
+    color: #E7332B;
+    font-size: 11px;
+}
+.space{
+    padding-left: 360px;
+    padding-bottom: 200px;
+}
+
+.column{
+    float: left;
+    width: 33.33%;
+}
+.row:after{
+    content: "";
+    display: table;
+    clear:both;
+}
+.column .red{
+    color: #E7332B;
+}
+.footer{
+    padding-top: 30px;
+    padding-left: 450px;
+}
+@media (min-width:992px) {
+    .row{margin:0px;}
+}

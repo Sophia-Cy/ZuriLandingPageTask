@@ -1,0 +1,177 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#navbar{
+    overflow: hidden;
+    background-color: papayawhip;;
+}
+#navbar a{
+    float: right;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 17px;
+}
+#navbar a.active{
+    background-color:red;
+    color: white;
+}
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.sticky{
+    padding-top: 60px;
+}
+
+
+.top{
+    padding-left: 8%;
+    margin-top: 60px;
+   
+}
+.bold{
+    font-weight: bolder;
+    font-size: 40px;
+    padding-top: 3%;
+    font-size: 40px;
+}
+.min{
+    font-size: 20px;
+}
+.btn1{
+    margin-left: 8%;
+    margin-top: 30px;
+    padding: 10px;
+    background-color: rgb(247, 62, 62);
+    color: white;
+    border: none;
+    border-radius: 0 0 10px;
+    box-shadow: 15px;
+    width:10%;
+}
+.btn2{
+    margin-top: 30px;
+    padding: 10px;
+    background-color: grey;
+    color: white;
+    border: none;
+    border-radius: 0 0 10px;
+    box-shadow: 15px;
+    width:10%;
+    margin-bottom: 10%;
+}
+.second{
+    margin-left: 8%;
+    margin-bottom: 10%;
+    padding-bottom: 10%;
+    background-color: rgb(233, 216, 219);
+}
+.third{
+    margin-left: 8%;
+    margin-bottom: 10%;
+    padding-bottom: 10%;
+    background-color: rgb(233, 216, 219);
+}
+.fourth{
+    margin-left:8%;
+    margin-bottom: 10%;
+    padding-bottom: 10%;
+    background-color: rgb(233, 216, 219);
+}
+.minn{
+    font-size: 20px;
+    padding-top: 10px;
+}
+.bold .max{
+    margin-top: 50px;
+}
+.bn1{
+    margin-left: 8%;
+    margin-top: 30px;
+    padding: 10px;
+    background-color: white;
+    color: rgb(51, 47, 47);;
+    border: none;
+    border-radius:10px;
+    box-shadow: 40px;
+    width:15%;
+}
+.bn2{
+    margin-left: 10px;
+    margin-top: 30px;
+    padding: 10px;
+    background-color: white;
+    color: rgb(51, 47, 47);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 40px;
+    width:15%;
+}
+footer{
+    margin-left: 8%;
+    background-color: black;
+    color: white;
+    padding: 30px;
+    margin: 20px;
+}
+@media screen and (max-width:1199px){
+   .top{
+    font-size: 20px;
+    display: block;
+    width:50%;
+    padding-top: 1.5%;
+   } 
+
+.btn1{
+    margin-left: 4%;
+    margin-top: 15px;
+    padding: 15px;
+}
+.btn2{
+    margin-top: 15px;
+    padding: 15px;
+}
+.second{
+    margin-left: 4%;
+    margin-bottom: 5%;
+    padding-bottom: 5%;
+}
+.third{
+    margin-left: 4%;
+    margin-bottom: 5%;
+    padding-bottom: 5%;
+}
+.fourth{
+    margin-left: 4%;
+    margin-bottom: 5%;
+    padding-bottom: 5%;
+}
+.minn{
+    font-size: 10px;
+    padding-top: 10px;
+}
+.bold .max{
+    margin-top: 25px;
+}
+.bn1{
+    margin-left: 4%;
+    margin-top: 30px;
+    padding: 10px;
+    width:15%
+}
+.bn2{
+    margin-top: 30px;
+    padding: 10px;
+    width:15%
+}
+footer{
+    margin-left: 4%;
+    padding: 30px;
+    margin: 20px;
+}
+}
